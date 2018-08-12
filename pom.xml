@@ -60,7 +60,7 @@
 							<sourceRoot>${project.build.directory}/generated/cxf</sourceRoot>
 							<wsdlOptions>
 								<wsdlOption>
-									<wsdl>${basedir}/src/main/resources/wsdl/CustomerOrders.wsdl</wsdl>
+									<wsdl>${basedir}/src/main/resources/wsdl/payemtnProcessor.wsdl</wsdl>
 									<wsdlLocation>classpath:paymentProcessor.wsdl</wsdlLocation>
 								</wsdlOption>
 							</wsdlOptions>
