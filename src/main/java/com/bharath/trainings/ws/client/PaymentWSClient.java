@@ -12,7 +12,7 @@ public class PaymentWSClient {
 
 	public static void main(String[] args) {
 		try {
-			PaymentProcessorImplService service = new PaymentProcessorImplService(new URL("host:8080/javafirstwsut/services/paymentProcessor?wsdl"));
+			PaymentProcessorImplService service = new PaymentProcessorImplService(new URL("http://localhost:8080/javafirstws/services/paymentProcessor?wsdl"));
 			PaymentProcessor port = service.getPaymentProcessorImplPort();
 			
 			PaymentProcessorResponse response = port.processPayment(new PaymentProcessorRequest());
